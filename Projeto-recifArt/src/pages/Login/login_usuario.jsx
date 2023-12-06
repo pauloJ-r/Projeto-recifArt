@@ -8,7 +8,7 @@ import "./Login.css"
 import passwordIncorrect from "../../components/util"
 
 
-function login() {
+function LoginUsuario() {
 
 
   const navigate = useNavigate();
@@ -146,4 +146,4 @@ function login() {
   );
 }
 
-export default login;
+export default LoginUsuario;

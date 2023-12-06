@@ -8,7 +8,7 @@ import "./Login.css";
 import passwordIncorrect from "../../components/util"
 
 
-function login() {
+function LoginEmp() {
 
 
     
@@ -149,4 +149,4 @@ function login() {
   );
 }
 
-export default login;
+export default LoginEmp;

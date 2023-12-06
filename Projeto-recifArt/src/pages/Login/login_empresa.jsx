@@ -8,7 +8,7 @@ import "./Login.css";
 import passwordIncorrect from "../../components/util"
 
 
-function LoginEmp() {
+const LoginEmp = () => {
 
 
     

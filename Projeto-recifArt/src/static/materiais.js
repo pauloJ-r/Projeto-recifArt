@@ -1,6 +1,6 @@
 import Papel from './../assets/img/materiais/papel-reciclavel.jpg';
 import Vidro from './../assets/img/materiais/material-vidro.jpg';
-import Tecido from './../assets/img/materiais/material-Tecido.jpg';
+import Tecido from './../assets/img/materiais/material-tecido.jpg';
 import Plastico from './../assets/img/materiais/material-plastico.jpg';
 import Metal from './../assets/img/materiais/material-metal.jpg';
 import Madeira from './../assets/img/materiais/material-madeira.jpg';

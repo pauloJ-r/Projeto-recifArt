@@ -16,6 +16,7 @@ import CadastroArt from "../pages/Cadastro/cadastro_artesao";
 import Pagamento from "../pages/Pagamento/Pagamento";
 import Materiais from "../pages/Materiais/Materiais";
 import Usuario from "../pages/usuario/usuario"
+import Artesao from './../pages/Artesoes/Artesoes';
 
 const AppRoutes = () => {
     return(
@@ -27,15 +28,15 @@ const AppRoutes = () => {
             <Route path="/blog" element={<Blog/>} />
             <Route path="/perfil" element={<Perfil/>}/>
             <Route path="/compra" element={<Compra/>} />
-            <Route path="/artesoes" element={<Artesoes/>} />
+            <Route path="/artesoes" element={<Artesao/>} />
             <Route path="/escolhacad" element={<EscolhaCad/>}/>
             <Route path="/escolhalog" element={<EscolhaLog/>}/>
-            <Route path= "/login_usuario" element={<LoginUser/>}/>
-            <Route path= "/cadastro_usuario" element={<CadastroUser/>}/>
-            <Route path= "/login_empresa" element={<LoginEmp/>}/>
-            <Route path= "/cadastro_empresa" element={<CadastroEmp/>}/>
-            <Route path= "/login_artesao" element={<LoginArt/>}/>
-            <Route path= "/cadastro_artesao" element={<CadastroArt/>}/>
+            <Route path="/login_usuario" element={<LoginUser/>}/>
+            <Route path="/cadastro_usuario" element={<CadastroUser/>}/>
+            <Route path="/login_empresa" element={<LoginEmp/>}/>
+            <Route path="/cadastro_empresa" element={<CadastroEmp/>}/>
+            <Route path="/login_artesao" element={<LoginArt/>}/>
+            <Route path="/cadastro_artesao" element={<CadastroArt/>}/>
             <Route path="/pagamento" element={<Pagamento/>} />
             <Route path="/materiais" element={<Materiais />} />
             <Route path="/usuario" element={<Usuario/>} />

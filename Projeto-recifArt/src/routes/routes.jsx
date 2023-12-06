@@ -7,11 +7,11 @@ import Blog from "./../pages/Blog/Blog";
 import Compra from "./../pages/Compra/Compra"
 import EscolhaCad from "./../pages/Escolha/EscolhaCad";
 import EscolhaLog from "./../pages/Escolha/EscolhaLog";
-import LoginUsuario from "./../pages/login/login_usuario";
+// import LoginUsuario from "./../pages/login/login_usuario";
 import CadastroUser from "./../pages/Cadastro/cadastro_usuario";
-import LoginEmp from "./../pages/login/login_empresa";
+// import LoginEmp from "./../pages/login/login_empresa";
 import CadastroEmp from "./../pages/Cadastro/cadastro_empresa";
-import LoginArtesao from "./../pages/login/login_artesao";
+// import LoginArtesao from "./../pages/login/login_artesao";
 import CadastroArt from "./../pages/Cadastro/cadastro_artesao";
 import Pagamento from "./../pages/Pagamento/Pagamento";
 import Materiais from "./../pages/Materiais/Materiais";
@@ -31,11 +31,11 @@ const AppRoutes = () => {
             <Route path="/artesoes" element={<Artesao/>} />
             <Route path="/escolhacad" element={<EscolhaCad/>}/>
             <Route path="/escolhalog" element={<EscolhaLog/>}/>
-            <Route path="/login_usuario" element={<LoginUsuario/>}/>
             <Route path="/cadastro_usuario" element={<CadastroUser/>}/>
-            <Route path="/login_empresa" element={<LoginEmp/>}/>
             <Route path="/cadastro_empresa" element={<CadastroEmp/>}/>
-            <Route path="/login_artesao" element={<LoginArtesao/>}/>
+            {/* <Route path="/login_usuario" element={<LoginUsuario/>}/>
+            <Route path="/login_empresa" element={<LoginEmp/>}/>
+            <Route path="/login_artesao" element={<LoginArtesao/>}/> */}
             <Route path="/cadastro_artesao" element={<CadastroArt/>}/>
             <Route path="/pagamento" element={<Pagamento/>} />
             <Route path="/materiais" element={<Materiais />} />

@@ -76,6 +76,7 @@ body {
     transition: all 2s;
     z-index: 1;
     font-weight: 900;
+    text-decoration: none;
 }
 
 .btn:hover {

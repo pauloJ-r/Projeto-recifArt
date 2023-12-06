@@ -38,7 +38,13 @@
     position: relative;
 }
 
-.lado-esquerdo > a button {
+.button-log {
+    text-decoration: none;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
     width: 125px;
     height: 53px;
     border-radius: 15px;
@@ -166,7 +172,7 @@
     }
 }
 @media screen and (max-width: 912px) {
-    .lado-esquerdo > a button {
+    .button-log {
         left: 60px;
     }
 }
@@ -184,7 +190,7 @@
         width: 100%;
         border-radius: 0; 
     }
-    .lado-esquerdo > a button {
+    .button-log {
         position: static; 
         margin-top: 15px; 
         transform: none;
@@ -205,8 +211,8 @@
         margin: 5px; 
     }
 
-    .lado-esquerdo > a button {
-        width: 90%; 
+    .button-log {
+        width: 25%; 
         max-width: 180px; 
         height: 35px; 
         font-size: 12px; 

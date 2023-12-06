@@ -14,11 +14,11 @@ const ProdutosFeirinha = (props) => {
 
         <div className="perfil-nome">
         <img src={props.perfil} alt="Perfil" />
-        <NavLink to="/perfil"> <p>{props.nome}</p>
+        <NavLink className="perfil-feirinha" to="/perfil"> <p>{props.nome}</p>
           </NavLink>
         </div>
 
-        <NavLink to="/compra">Comprar</NavLink>
+        <NavLink className="button-comprar" to="/compra">Comprar</NavLink>
       </div>
     </>
   );

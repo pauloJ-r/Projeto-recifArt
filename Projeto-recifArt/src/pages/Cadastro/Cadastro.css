@@ -192,8 +192,13 @@ form .ladoEsquerdo{
     justify-content: center;
 }
 
-.ladoEsquerdo > a button{
-
+.button-voltar{
+    text-decoration: none;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
     width: 125px;
     height: 53px;
     border-radius: 15px;
@@ -222,7 +227,7 @@ form .ladoEsquerdo{
 }
 
 @media screen and (max-width: 1337px) {
-    .ladoEsquerdo > a button {
+    .button-voltar {
 
         top:-16px;
         right: 60%
@@ -239,7 +244,7 @@ form .ladoEsquerdo{
         font-size: 30px;
     }
 
-    .ladoEsquerdo > a button{
+    .button-voltar{
         right: 45%;
         
     }
@@ -247,7 +252,7 @@ form .ladoEsquerdo{
 
 @media (max-width: 770px){
 
-    .ladoEsquerdo > a button{
+    .button-voltar{
         right: 35%;
     }
 }
@@ -270,7 +275,7 @@ form .ladoEsquerdo{
         align-items: center;
     }
 
-    .ladoEsquerdo a button{
+    .button-voltar{
         width: 110px;
     }
 
@@ -282,7 +287,7 @@ form .ladoEsquerdo{
         flex-direction: column;
     }
     
-    .ladoEsquerdo a button{
+    .button-voltar{
        right: -5%;
     } 
     
@@ -304,7 +309,7 @@ form .ladoEsquerdo{
         
      } 
 
-    .ladoEsquerdo a button{
+     .button-voltar{
        right: -20%;
     } 
 
@@ -316,7 +321,7 @@ form .ladoEsquerdo{
         font-size: 12px;
        
     }
-    .ladoEsquerdo a button{
+    .button-voltar{
        right: -35%;
        height: 30px;
     }   
@@ -330,7 +335,7 @@ form .ladoEsquerdo{
 @media (max-width: 370px){
     
 
-    .ladoEsquerdo a button{
+    .button-voltar{
        right: -37%;
     } 
   
@@ -338,7 +343,7 @@ form .ladoEsquerdo{
 
 @media (max-width: 340px){
 
-    .ladoEsquerdo a button{
+    .button-voltar{
        right: -48%;
     } 
   

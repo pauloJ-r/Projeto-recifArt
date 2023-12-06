@@ -7,10 +7,10 @@ import Blog from "./../pages/Blog/Blog";
 import Compra from "./../pages/Compra/Compra"
 import EscolhaCad from "./../pages/Escolha/EscolhaCad";
 import EscolhaLog from "./../pages/Escolha/EscolhaLog";
-import LoginUsuario from "./../pages/Login/login_usuario";
 import CadastroUser from "./../pages/Cadastro/cadastro_usuario";
-import LoginEmp from "./../pages/login/Login_empresa";
 import CadastroEmp from "./../pages/Cadastro/cadastro_empresa";
+import LoginUsuario from "./../pages/Login/login_usuario";
+import LoginEmp from "./../pages/Login/login_empresa";
 import LoginArtesao from "./../pages/Login/login_artesao";
 import CadastroArt from "./../pages/Cadastro/cadastro_artesao";
 import Pagamento from "./../pages/Pagamento/Pagamento";

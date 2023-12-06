@@ -1,6 +1,7 @@
 import React from "react";
 import "./Escolha.css"
 import { Cliente, Empresa, Martelo } from "../../components/image";
+import { NavLink } from "react-router-dom";
 
 const EscolhaLog = () => {
     return (

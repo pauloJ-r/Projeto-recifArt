@@ -81,15 +81,11 @@ const Navbar = ({ isLoggedIn, handleLogout ,setIsLoggedIn}) => {
         ) : (
             
             <>
-              <NavLink to="/escolhalog">
-                <button type="button" className="button-entrar">
+              <NavLink to="/escolhalog" className="button-entrar">
                   Entrar
-                </button>
               </NavLink>
-              <NavLink to="/escolhacad">
-                <button type="button" className="button-cadastrar">
+              <NavLink to="/escolhacad" className="button-cadastrar">
                   Cadastrar
-                </button>
               </NavLink>
             </>
           )}

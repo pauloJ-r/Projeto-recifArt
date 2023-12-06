@@ -128,10 +128,12 @@ const Pagamento = () => {
                   className: "success",
                   style: {
                     background: "linear-gradient(to right, #008000, #27be00)",
-                  }
+                  },
+                  duration: 5000
                 }).showToast();
 
                 navigate('/feirinha');
+                window.scrollTo(0, 0);
 
               }}
               className="btn-finalizar"

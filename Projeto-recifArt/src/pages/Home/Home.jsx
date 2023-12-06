@@ -85,9 +85,8 @@ const Home = () => {
               que simplesmente aprecia a beleza do <span>artesanato único</span>{" "}
               , o <span>RecifArt</span> é o lugar para você.
             </p>
-            <a href="/artesoes"><button type="button" className="button-artesao top-fill">
-              ARTESÃOS
-            </button></a>
+            <NavLink to="/artesoes" type="button" className="button-artesao top-fill">
+              ARTESÃOS</NavLink>
           </section>
         </header>
         <main>

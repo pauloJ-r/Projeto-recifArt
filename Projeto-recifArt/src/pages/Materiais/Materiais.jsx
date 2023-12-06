@@ -10,23 +10,23 @@ const Materiais = () => {
     const [isLoggedIn, setIsLoggedIn] = useState(false);
 
     useEffect(() => {
-      const checkLoggedInStatus = async () => {
-        const token = localStorage.getItem('token');
-        if (token) {
-          setIsLoggedIn(true);
-        }
-      };
-    
-      checkLoggedInStatus();
+        const checkLoggedInStatus = async () => {
+            const token = localStorage.getItem('token');
+            if (token) {
+                setIsLoggedIn(true);
+            }
+        };
+
+        checkLoggedInStatus();
     }, []);
     const handleLogout = () => {
-      setIsLoggedIn(false);
-      localStorage.removeItem('token');
+        setIsLoggedIn(false);
+        localStorage.removeItem('token');
     };
 
 
 
-    
+
     const [materiais, setMaterias] = useState([]);
     const carousel = useRef(null);
 

@@ -18,7 +18,7 @@ const ProdutosFeirinha = (props) => {
           </NavLink>
         </div>
 
-        <NavLink to="/compra"><button type="button">Comprar</button></NavLink>
+        <NavLink to="/compra">Comprar</NavLink>
       </div>
     </>
   );

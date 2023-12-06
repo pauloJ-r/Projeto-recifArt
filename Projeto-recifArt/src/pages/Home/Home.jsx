@@ -223,7 +223,7 @@ const Home = () => {
               </MapContainer>
             </div>
 
-            <button className="btn-home-materias" onClick={redirecionarParaMateriais}> Materias </button>
+            <button className="btn-home-materias" onClick={redirecionarParaMateriais}> Veja os materiais </button>
             </section>
           </section>
 

@@ -1,28 +1,28 @@
 import { Route, Routes } from "react-router-dom";
-import Home from '../pages/Home/Home';
-import Sobre from '../pages/Sobre/Sobre';
-import Feirinha from "../pages/Feirinha/Feirinha";
-import Perfil from "../pages/perfil/perfil";
-import Blog from "../pages/Blog/Blog";
-import Compra from "../pages/Compra/Compra"
-import EscolhaCad from "../pages/Escolha/EscolhaCad";
-import EscolhaLog from "../pages/Escolha/EscolhaLog";
-import LoginUsuario from "../pages/login/login_usuario";
-import CadastroUser from "../pages/Cadastro/cadastro_usuario";
-import LoginEmp from "../pages/login/login_empresa";
-import CadastroEmp from "../pages/Cadastro/cadastro_empresa";
-import LoginArtesao from "../pages/login/login_artesao";
-import CadastroArt from "../pages/Cadastro/cadastro_artesao";
-import Pagamento from "../pages/Pagamento/Pagamento";
-import Materiais from "../pages/Materiais/Materiais";
-import Usuario from "../pages/usuario/usuario"
+import Home from './../pages/Home/Home';
+import Sobre from './../pages/Sobre/Sobre';
+import Feirinha from "./../pages/Feirinha/Feirinha";
+import Perfil from "./../pages/perfil/perfil";
+import Blog from "./../pages/Blog/Blog";
+import Compra from "./../pages/Compra/Compra"
+import EscolhaCad from "./../pages/Escolha/EscolhaCad";
+import EscolhaLog from "./../pages/Escolha/EscolhaLog";
+import LoginUsuario from "./../pages/login/login_usuario";
+import CadastroUser from "./../pages/Cadastro/cadastro_usuario";
+import LoginEmp from "./../pages/login/login_empresa";
+import CadastroEmp from "./../pages/Cadastro/cadastro_empresa";
+import LoginArtesao from "./../pages/login/login_artesao";
+import CadastroArt from "./../pages/Cadastro/cadastro_artesao";
+import Pagamento from "./../pages/Pagamento/Pagamento";
+import Materiais from "./../pages/Materiais/Materiais";
+import Usuario from "./../pages/usuario/usuario"
 import Artesao from './../pages/Artesoes/Artesoes';
 
 const AppRoutes = () => {
     return(
         <Routes>
-            <Route path="/home" element={<Home />} />
             <Route path="/" element={<Home />} />
+            <Route path="/home" element={<Home />} />
             <Route path="/sobrenos" element={<Sobre/>} />
             <Route path="/feirinha" element={<Feirinha/>} />
             <Route path="/blog" element={<Blog/>} />

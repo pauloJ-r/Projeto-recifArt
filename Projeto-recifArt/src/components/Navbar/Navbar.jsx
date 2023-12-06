@@ -69,9 +69,9 @@ const Navbar = ({ isLoggedIn, handleLogout ,setIsLoggedIn}) => {
             {showLogout && (
               <div className="showLogout">
 
-              <a className="button-profile" href="/usuario" >
+              <NavLink className="button-profile" to="/usuario" >
                 Perfil
-              </a>
+              </NavLink>
               <button type="button" className="button-logout" onClick={() => {handleLogout();setIsLoggedIn(false);}}>
                 Sair
               </button>

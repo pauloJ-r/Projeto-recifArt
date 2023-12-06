@@ -176,6 +176,7 @@ form{
    color: #0F3083;
    font-weight: 600;
    margin-top: 25px;
+   cursor: pointer;
 }
 
 .inputBox span{

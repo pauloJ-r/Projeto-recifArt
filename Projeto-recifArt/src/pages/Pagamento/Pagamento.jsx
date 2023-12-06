@@ -6,11 +6,18 @@ import { Cartoes, Cartoes2 } from "../../components/image";
 import { useEffect, useState } from 'react';
 import { FaArrowLeft } from 'react-icons/fa';
 
+import { useNavigate } from 'react-router-dom';
+
+import Toastify from 'toastify-js'
+import "toastify-js/src/toastify.css"
+
 import { NavLink } from "react-router-dom";
 
 const Pagamento = () => {
 
   const [isLoggedIn, setIsLoggedIn] = useState(false);
+
+  const navigate = useNavigate();
 
   useEffect(() => {
     const checkLoggedInStatus = async () => {
@@ -112,15 +119,25 @@ const Pagamento = () => {
               </div>
             </div>
 
-            <a
-              onClick={() => {
-                alert("Obrigado, volte sempre!")
+            <button
+              onClick={(event) => {
+                event.preventDefault();
+
+                Toastify({
+                  text: "Pagamento realizado com sucesso.",
+                  className: "success",
+                  style: {
+                    background: "linear-gradient(to right, #008000, #27be00)",
+                  }
+                }).showToast();
+
+                navigate('/feirinha');
+
               }}
               className="btn-finalizar"
-              href="/home"
             >
               Finalizar compra
-            </a>
+            </button>
           </form>
         </div>
 

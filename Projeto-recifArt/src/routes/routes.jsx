@@ -6,7 +6,7 @@ import Feirinha from "../pages/Feirinha/Feirinha";
 import Perfil from "../pages/perfil/perfil";
 import Blog from "../pages/Blog/Blog";
 import Compra from "../pages/Compra/Compra"
-import Artesoes from "../pages/artesoes/Artesoes";
+import Artesoes from "../pages/Artesoes/Artesoes";
 import EscolhaCad from "../pages/Escolha/EscolhaCad";
 import EscolhaLog from "../pages/Escolha/EscolhaLog";
 import LoginUser from "../pages/login/login_usuario";

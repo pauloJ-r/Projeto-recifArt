@@ -10,7 +10,8 @@ export default function cadSucess() {
       className: "danger",
       style: {
         background: "linear-gradient(to right, #4BE847, #5DD1A1)",
-      }
+      },
+      duration: 5000
     }).showToast();
 
   }

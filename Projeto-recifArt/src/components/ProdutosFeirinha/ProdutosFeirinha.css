@@ -37,17 +37,18 @@
     gap: 14px;
 }
 
-.box-produtos button {
+.button-comprar {
     padding: 8px 40px 8px 40px;
-    border-radius: 20px;
+    border-radius: 15px;
     border: none;
     background-color: #061033;
     color: #fff;
     font-family: var(--primary-font);
     cursor: pointer;
+    text-decoration: none;
     transition: .4s;
 }
-.perfil-nome > a{
+.perfil-feirinha{
     text-decoration: none;
 }
 
@@ -55,7 +56,7 @@
     border-top-right-radius: 53px;
     border-top-left-radius: 53px;
 }
-.box-produtos button:hover {
+.button-comprar:hover {
     background-color: #0e2577;
 }
 

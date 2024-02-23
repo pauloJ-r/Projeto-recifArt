@@ -8,7 +8,7 @@ import 'leaflet/dist/leaflet.css';
 import { Icon } from "leaflet";
 import { Video } from "../../components/video";
 import { useEffect,useState } from 'react';
-import { NavLink } from 'react-router-dom';
+import { NavLink, useNavigate } from 'react-router-dom';
 
 import "./Home.css";
 
@@ -26,6 +26,7 @@ import {
 } from "../../components/image";
 
 const Home = () => {
+  const navigate = useNavigate();
   
   const [isLoggedIn, setIsLoggedIn] = useState(false);
 
@@ -69,6 +70,11 @@ const Home = () => {
     window.scrollTo(0, 0);
   };
 
+  const redirecionarParaMateriais = () => {
+    navigate('/materiais');
+    handleNavLinkClick();
+  }
+
   return (
     <>
       <div id="container-home">
@@ -85,9 +91,8 @@ const Home = () => {
               que simplesmente aprecia a beleza do <span>artesanato único</span>{" "}
               , o <span>RecifArt</span> é o lugar para você.
             </p>
-            <a href="/artesoes"><button type="button" className="button-artesao top-fill">
-              ARTESÃOS
-            </button></a>
+            <NavLink to="/artesoes" type="button" className="button-artesao top-fill">
+              ARTESÃOS</NavLink>
           </section>
         </header>
         <main>
@@ -217,6 +222,8 @@ const Home = () => {
 
               </MapContainer>
             </div>
+
+            <button className="btn-home-materias" onClick={redirecionarParaMateriais}> Veja os materiais </button>
             </section>
           </section>
 

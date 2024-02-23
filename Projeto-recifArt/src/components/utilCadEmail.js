@@ -10,7 +10,8 @@ export default function cadEmailSucess() {
       className: "danger",
       style: {
         background: "linear-gradient(to right, #E84747, #D15D5D)",
-      }
+      },
+      duration: 5000
     }).showToast();
 
   }

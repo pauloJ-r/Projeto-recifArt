@@ -1,4 +1,5 @@
 import { Route, Routes } from "react-router-dom";
+
 import Home from '../pages/Home/Home';
 import Sobre from '../pages/Sobre/Sobre';
 import Feirinha from "../pages/Feirinha/Feirinha";
@@ -21,14 +22,14 @@ import Usuario from "../pages/usuario/usuario";
 const AppRoutes = () => {
     return(
         <Routes>
-            <Route path="/home" element={<Home />} />
             <Route path="/" element={<Home />} />
+            <Route path="/home" element={<Home />} />
             <Route path="/sobrenos" element={<Sobre/>} />
             <Route path="/feirinha" element={<Feirinha/>} />
             <Route path="/blog" element={<Blog/>} />
             <Route path="/perfil" element={<Perfil/>}/>
             <Route path="/compra" element={<Compra/>} />
-            <Route path="/artesoes" element={<Artesoes/>} />
+            <Route path="/artesoes" element={<Artesao/>} />
             <Route path="/escolhacad" element={<EscolhaCad/>}/>
             <Route path="/escolhalog" element={<EscolhaLog/>}/>
             <Route path="/login_usuario" element={<LoginUser/>}/>

@@ -76,6 +76,7 @@ body {
     transition: all 2s;
     z-index: 1;
     font-weight: 900;
+    text-decoration: none;
 }
 
 .btn:hover {
@@ -292,6 +293,25 @@ h2 {
 .empresa {
     width: 40%; 
     max-width: 150px; 
+}
+
+.btn-home-materias {
+    cursor: pointer;
+    width: 300px;
+    margin-left: 1rem;
+    background-color: #04143C;
+    color: #FFFFFF;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.7rem;
+    font-family: inherit;
+    border-radius: 7px;
+    padding: 1rem;
+    text-decoration: none;
+    margin: 20px auto;
+
 }
 
 /* -------- KEYFRAMES ---------*/

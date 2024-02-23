@@ -1,5 +1,6 @@
 import React from "react";
 import "./ProdutosFeirinha.css";
+import { NavLink } from "react-router-dom";
 
 const ProdutosFeirinha = (props) => {
   return (
@@ -13,11 +14,11 @@ const ProdutosFeirinha = (props) => {
 
         <div className="perfil-nome">
         <img src={props.perfil} alt="Perfil" />
-        <a href="/perfil"> <p>{props.nome}</p>
-          </a>
+        <NavLink className="perfil-feirinha" to="/perfil"> <p>{props.nome}</p>
+          </NavLink>
         </div>
 
-        <a href="./compra"><button type="button">Comprar</button></a>
+        <NavLink className="button-comprar" to="/compra">Comprar</NavLink>
       </div>
     </>
   );

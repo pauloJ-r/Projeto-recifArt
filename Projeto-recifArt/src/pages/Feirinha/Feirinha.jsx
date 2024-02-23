@@ -101,7 +101,7 @@ const Feirinha = () => {
           <h1>Conheça nossa Feirinha</h1>
         </header>
         <main>
-        <section className="sessao-feirinha reveal">
+        <section className="sessao-feirinha">
           <div className="box-input">
             <input
               type="text"
@@ -110,7 +110,7 @@ const Feirinha = () => {
             />
           </div>
 
-          <div className="produtos-grid reveal">
+          <div className="produtos-grid">
             {cardsProduto.map((card) => (
               <ProdutosFeirinha img={card.img} produto={card.produto} preco={card.preco} perfil={card.perfil} nome={card.nome}/>
             ))}

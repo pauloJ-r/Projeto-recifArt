@@ -9,11 +9,11 @@ import Compra from "../pages/Compra/Compra"
 import Artesoes from "../pages/Artesoes/Artesoes";
 import EscolhaCad from "../pages/Escolha/EscolhaCad";
 import EscolhaLog from "../pages/Escolha/EscolhaLog";
-import LoginUser from "../pages/login/login_usuario";
+import LoginUser from "../pages/Login/LoginUsuario";
 import CadastroUser from "../pages/Cadastro/cadastro_usuario";
-import LoginEmp from "../pages/login/login_empresa";
+import LoginEmp from "../pages/Login/LoginEmpresa";
 import CadastroEmp from "../pages/Cadastro/cadastro_empresa";
-import LoginArt from "../pages/login/login_artesao";
+import LoginArt from "../pages/Login/LoginArtesao";
 import CadastroArt from "../pages/Cadastro/cadastro_artesao";
 import Pagamento from "../pages/Pagamento/Pagamento";
 import Materiais from "../pages/Materiais/Materiais";

@@ -15,10 +15,30 @@ Utilizando React, uma biblioteca poderosa, cada parte do portfólio é gerenciad
 
 O uso do Vite como ferramenta de construção garante um desenvolvimento rápido e tempos de carregamento otimizados. Isso resulta em uma experiência de usuário rápida e eficiente.
 
+### Front-end
+Formik: Facilita a criação de formulários em React.
+
+Yup: Realiza validação de dados nos formulários.
+
+Axios: Realiza requisições HTTP para o servidor.
+
+### Back-end
+Bcrypt: Criptografa senhas para armazenamento seguro.
+
+Body-parser: Analisa dados enviados nas requisições HTTP.
+
+Cors: Permite acesso controlado a recursos do servidor.
+
+Express: Framework para construir aplicativos web e APIs.
+
+MySQL: Banco de dados relacional para armazenamento de dados.
+
+Nodemon: Reinicia automaticamente o servidor ao detectar alterações no código-fonte.
+
 ## Acessar a Página 
 
 Você pode acessar a página através do link abaixo:
-https://paulojunior.vercel.app/
+https://recifartbr.vercel.app/
 
 ## Como Executar 
 

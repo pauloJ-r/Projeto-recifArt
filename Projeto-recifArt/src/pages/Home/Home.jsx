@@ -243,8 +243,6 @@ L.Icon.Default.mergeOptions({
                   </MapContainer>
 
               </div>
-
-              <button className="btn-home-materias" onClick={redirecionarParaMateriais}> Veja os materiais </button>
             </section>
           </section>
 

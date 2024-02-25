@@ -8,6 +8,11 @@ import 'leaflet/dist/leaflet.css';
 import { Video } from "../../components/video";
 import { useEffect, useState } from 'react';
 import { NavLink, useNavigate } from 'react-router-dom';
+import L from 'leaflet';
+import markerIcon from 'leaflet/dist/images/marker-icon.png';
+import markerIcon2x from 'leaflet/dist/images/marker-icon.png';
+import markerShadow from 'leaflet/dist/images/marker-shadow.png';
+
 
 import "./Home.css";
 
@@ -43,6 +48,15 @@ const Home = () => {
     setIsLoggedIn(false);
     localStorage.removeItem('token');
   };
+  // Configurando os ícones do marcador manualmente
+delete L.Icon.Default.prototype._getIconUrl;
+L.Icon.Default.mergeOptions({
+  iconRetinaUrl: markerIcon2x,
+  iconUrl: markerIcon,
+  shadowUrl: markerShadow
+});
+
+
 
   const cardsCriatividade = [
     {

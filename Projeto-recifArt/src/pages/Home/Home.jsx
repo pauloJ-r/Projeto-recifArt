@@ -150,7 +150,98 @@ L.Icon.Default.mergeOptions({
                       </NavLink>
                     </Popup>
                   </Marker>
+
+                  <Marker position={[-8.033852953343633, -34.878521875154625]}>
+                    <Popup>
+                     <strong>Ecoestação Campo Grande</strong><br/>
+                     <FaRegClock />  Horário: 7h a 16h <br/>
+                   <a href="https://maps.app.goo.gl/oaLXG2wXxxPaN4gk6" target="blank">Rota</a> 
+                   <NavLink to="/materiais" onClick={handleNavLinkClick}>Materiais</NavLink>
+                    </Popup>
+                  </Marker>
+                  <Marker position={[-8.039017570578268, -34.95238247509206]}>
+                    <Popup>
+                     <strong>Nordeste Ambiental Reciclagem Boa Viagem</strong><br/>
+                     <FaRegClock />  Horário: 7h a 17h <br/>
+                   <a href="https://maps.app.goo.gl/26SEMhAtSZM6PqVs7" target="blank">Rota</a> 
+                   <NavLink to="/materiais" onClick={handleNavLinkClick}>Materiais</NavLink>
+                    </Popup>
+                  </Marker>
+                  <Marker position={[-8.077768455704135, -34.971780741522416]}>
+                    <Popup>
+                     <strong>Ecoestação Totó</strong><br/>
+                     <FaRegClock />  Horário: 7h a 16h <br/>
+                   <a href="https://maps.app.goo.gl/SdJRHfL4ZSxZPEUX7" target="blank">Rota</a> 
+                   <NavLink to="/materiais" onClick={handleNavLinkClick}>Materiais</NavLink>
+                    </Popup>
+                  </Marker>
+                  <Marker position={[-8.088753447641468, -34.89150888650784]}>
+                    <Popup>
+                     <strong>Econúcleo Vila Mangue</strong><br/>
+                     <FaRegClock />  Horário: 8h a 17h <br/>
+                   <a href="https://maps.app.goo.gl/uEqbVkA4hjSSbcKWA" target="blank">Rota</a> 
+                   <NavLink to="/materiais" onClick={handleNavLinkClick}>Materiais</NavLink>
+                    </Popup>
+                  </Marker>
+                  <Marker position={[-8.115977668603954, -34.91550839691972]}>
+                    <Popup>
+                     <strong>Centro de Reciclagem do Recife</strong><br/>
+                     <FaRegClock />  Horário: 8h a 16h <br/>
+                   <a href="https://maps.app.goo.gl/qAZnTFb5ogFBoKZ79" target="blank">Rota</a> 
+                   <NavLink to="/materiais" onClick={handleNavLinkClick}>Materiais</NavLink>
+                    </Popup>
+                  </Marker>
+                  <Marker position={[-8.097753455463128, -34.91955675685612]}>
+                    <Popup>
+                     <strong>Cooperativa de Catadores Profissionais do Recife</strong><br/>
+                     <FaRegClock />  Horário: 7h a 17h <br/>
+                   <a href="https://maps.app.goo.gl/2QTxBkpjqpsEdgME7" target="blank">Rota</a> 
+                   <NavLink to="/materiais" onClick={handleNavLinkClick}>Materiais</NavLink>
+                    </Popup>
+                  </Marker>
+                  <Marker position={[-8.03100171513698, -34.94247237517158]}>
+                    <Popup>
+                     <strong>REEECicle - Inteligência em Reciclagem</strong><br/>
+                     <FaRegClock />  Horário: 8h a 17:30h <br/>
+                   <a href="https://maps.app.goo.gl/WbLaw7Z43AKiiyiX6" target="blank">Rota</a> 
+                   <NavLink to="/materiais" onClick={handleNavLinkClick}>Materiais</NavLink>
+                    </Popup>
+                  </Marker>
+                  <Marker position={[-8.10865069739007, -34.953491374289136]}>
+                    <Popup>
+                     <strong>Ecoestação Cohab</strong><br/>
+                     <FaRegClock />  Horário: 7h a 17h <br/>
+                   <a href="https://maps.app.goo.gl/L8Ectba4irEZaFR6A" target="blank">Rota</a> 
+                   <NavLink to="/materiais" onClick={handleNavLinkClick}>Materiais</NavLink>
+                    </Popup>
+                  </Marker>
+                  <Marker position={[-8.113301720086668, -34.953626498337634]}>
+                    <Popup>
+                     <strong>Ecoestação Ibura</strong><br/>
+                     <FaRegClock />  Horário: 7h a 17h <br/>
+                   <a href="https://maps.app.goo.gl/qR4XsqnEZW82WDio7" target="blank">Rota</a> 
+                   <NavLink to="/materiais" onClick={handleNavLinkClick}>Materiais</NavLink>
+                    </Popup>
+                  </Marker>
+                  <Marker position={[-8.02036858838945, -34.87449068728338]}>
+                    <Popup>
+                     <strong>Ecoestação do Arruda</strong><br/>
+                     <FaRegClock />  Horário: 8h a 18h <br/>
+                   <a href="https://maps.app.goo.gl/N8CBMwZq15JeR27N6" target="blank">Rota</a> 
+                   <NavLink to="/materiais" onClick={handleNavLinkClick}>Materiais</NavLink>
+                    </Popup>
+                  </Marker>
+                  <Marker position={[-8.07359718996039, -34.89748189373431]}>
+                    <Popup>
+                     <strong>E.B.A Gestão Ambiental Nordeste</strong><br/>
+                     <FaRegClock />  Horário: 8h a 17h <br/>
+                   <a href="https://maps.app.goo.gl/naWnpKz786HdkYqN8" target="blank">Rota</a> 
+                   <NavLink to="/materiais" onClick={handleNavLinkClick}>Materiais</NavLink>
+                    </Popup>
+                  </Marker>         
+                
                   </MapContainer>
+
               </div>
 
               <button className="btn-home-materias" onClick={redirecionarParaMateriais}> Veja os materiais </button>

@@ -1,6 +1,6 @@
 # Projeto Recifart
 
-Recifart é um projeto inovador concebido durante o processo do programa de start, desenvolvido com o objetivo de conectar empresas a pontos de coleta e proporcionar um marketplace integrado para artesãos. Essa iniciativa visa promover eficiência na gestão de resíduos, ao mesmo tempo em que amplia a visibilidade e os recursos disponíveis para os criativos envolvidos. É importante ressaltar que o projeto foi incubado e desenvolvido como parte de um hackathon organizado pela Accenture em parceria com a Start, onde nosso grupo conquistou o primeiro lugar. Essa conquista atesta não apenas a viabilidade e o potencial impacto do Recifart, mas também a qualidade e a inovação do trabalho desenvolvido pela equipe.
+Recifart é um projeto inovador concebido durante o processo do programa start, desenvolvido com o objetivo de conectar empresas a pontos de coleta e proporcionar um marketplace integrado para artesãos. Essa iniciativa visa promover eficiência na gestão de resíduos, ao mesmo tempo em que amplia a visibilidade e os recursos disponíveis para os criativos envolvidos. É importante ressaltar que o projeto foi incubado e desenvolvido como parte de um hackathon organizado pela Accenture em parceria com a Start, onde nosso grupo conquistou o primeiro lugar. Essa conquista atesta não apenas a viabilidade e o potencial impacto do Recifart, mas também a qualidade e a inovação do trabalho desenvolvido pela equipe.
 
 
 ## Tecnologias Utilizadas

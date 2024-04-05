@@ -32,7 +32,9 @@ body {
     width: 100vw;
     padding-bottom: 30px;
 }
-
+.descricao-coleta{
+text-align: left;
+}
 .sessao-header {
     margin-top: 50px;
     display: flex;

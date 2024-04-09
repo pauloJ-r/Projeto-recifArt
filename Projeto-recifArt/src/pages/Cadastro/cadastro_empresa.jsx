@@ -178,7 +178,7 @@ function Cadastro() {
 <button className='button' type='submit' src='#'>
  Cadastrar
 </button>
-<p>já tem uma conta?<NavLink to="login_empresa" className='login-area'> Faça o login</NavLink></p>
+ <p>já tem uma conta?<a href="login_empresa" className='login-area'> Faça o login</a></p>
 </div>
         </Form>
  </Formik>

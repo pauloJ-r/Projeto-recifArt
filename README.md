@@ -1,10 +1,7 @@
-# Projeto Recifart
+# UniFood
 
 O UniFood é um aplicativo de comércio eletrônico de lanches exclusivo para o campus Igarassu, criado para centralizar e otimizar as compras, substituindo o sistema atual baseado em grupos de WhatsApp.
 
-<img width="1297" alt="01" src="https://github.com/pauloJ-r/Projeto-recifArt/assets/62119732/3a6fcef4-c7b2-4311-a026-d6663c7a0286">
-
-<img width="1297" alt="prooject" src="https://github.com/pauloJ-r/Projeto-recifArt/assets/62119732/ae4151fd-fe08-4392-91e1-ca13b84025b9">
 
 ## Tecnologias Utilizadas
 
@@ -37,17 +34,6 @@ Express: Framework para construir aplicativos web e APIs.
 Nosql
 
 Nodemon: Reinicia automaticamente o servidor ao detectar alterações no código-fonte.
-
-
-<img width="1297" alt="02 (2)" src="https://github.com/pauloJ-r/Projeto-recifArt/assets/62119732/1e7fc1e7-7325-4a04-b301-1e824a13d69c">
-<img width="1297" alt="03" src="https://github.com/pauloJ-r/Projeto-recifArt/assets/62119732/dc9d821c-076f-4675-b03e-8bbe0b0c38d8">
-
-
-## Acessar a Página 
-
-Você pode acessar a página através do link abaixo:
-https://recifartbr.vercel.app/
-
 
 
 

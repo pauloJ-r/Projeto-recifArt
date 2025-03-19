@@ -1,7 +1,10 @@
-# UniFood
+# Projeto Recifart
 
-O UniFood é um aplicativo de comércio eletrônico de lanches exclusivo para o campus Igarassu, criado para centralizar e otimizar as compras, substituindo o sistema atual baseado em grupos de WhatsApp.
+Recifart é um projeto inovador concebido durante o processo do programa start, desenvolvido com o objetivo de conectar empresas a pontos de coleta e proporcionar um marketplace integrado para artesãos. Essa iniciativa visa promover eficiência na gestão de resíduos, ao mesmo tempo em que amplia a visibilidade e os recursos disponíveis para os criativos envolvidos. É importante ressaltar que o projeto foi desenvolvido como parte de um hackathon organizado pela Accenture em parceria com a Start, onde nosso grupo conquistou o primeiro lugar. Essa conquista atesta não apenas a viabilidade e o potencial impacto do Recifart, mas também a qualidade e a inovação do trabalho desenvolvido pela equipe.
 
+<img width="1297" alt="01" src="https://github.com/pauloJ-r/Projeto-recifArt/assets/62119732/3a6fcef4-c7b2-4311-a026-d6663c7a0286">
+
+<img width="1297" alt="prooject" src="https://github.com/pauloJ-r/Projeto-recifArt/assets/62119732/ae4151fd-fe08-4392-91e1-ca13b84025b9">
 
 ## Tecnologias Utilizadas
 
@@ -31,9 +34,20 @@ Cors: Permite acesso controlado a recursos do servidor.
 
 Express: Framework para construir aplicativos web e APIs.
 
-Nosql
+MySQL: Banco de dados relacional para armazenamento de dados.
 
 Nodemon: Reinicia automaticamente o servidor ao detectar alterações no código-fonte.
+
+
+<img width="1297" alt="02 (2)" src="https://github.com/pauloJ-r/Projeto-recifArt/assets/62119732/1e7fc1e7-7325-4a04-b301-1e824a13d69c">
+<img width="1297" alt="03" src="https://github.com/pauloJ-r/Projeto-recifArt/assets/62119732/dc9d821c-076f-4675-b03e-8bbe0b0c38d8">
+
+
+## Acessar a Página 
+
+Você pode acessar a página através do link abaixo:
+https://recifartbr.vercel.app/
+
 
 
 
